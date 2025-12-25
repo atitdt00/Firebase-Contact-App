@@ -41,7 +41,7 @@ const AddAndUpdateContact = ({ isOpen, onClose, isUpdate, contact }) => {
           initialValues={isUpdate ? {
             name:  contact.name,
             email: contact.email
-          }: {
+          } : {
             name: "",
             email: ""
           }}
@@ -84,7 +84,7 @@ const AddAndUpdateContact = ({ isOpen, onClose, isUpdate, contact }) => {
               type="submit" // Changed from type="button" to type="submit"
               className="border self-end rounded-sm cursor-pointer bg-amber-400 mb-2 px-3 py-1.5"
             >
-              {isUpdate ? "update" : "add"}Contact
+              {isUpdate ? "update" : "add"} Contact
             </button>
           </Form>
         </Formik>

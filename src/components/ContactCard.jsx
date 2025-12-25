@@ -40,7 +40,6 @@ const ContactCard = ({ contact }) => {
             />
           </div>
           <AddAndUpdateContact
-          c
             contact={contact}
             isUpdate
             isOpen={isOpen}
