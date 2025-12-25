@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <>
-      <div className="max-h-[100vh] m-auto max-w-[370px]">
+      <div className="max-h-100vh m-auto max-w-370px">
         <Navbar />
         <div className="flex gap-2 items-center">
           <FaSearch className="text-white absolute ml-2" />
@@ -69,7 +69,7 @@ const App = () => {
             onChange={filterContact}
             placeholder="Enter to search"
             type="text"
-            className=" pl-8 h-10 flex-grow border border-white  outline-none text-white bg-transparent rounded-2xl"
+            className=" pl-8 h-10 grow border border-white  outline-none text-white bg-transparent rounded-2xl"
           />
           <FaPlusCircle onClick={onOpen} className=" text-white text-2xl" />
         </div>
